@@ -31,11 +31,6 @@ com_field = ['age', 'gender', 'marriageStatus']
 # fi.close()
 # print(com_field)
 
-header = 'label,clickTime-ctr,creativeID-ctr,positionID-ctr,connectionType-ctr,telecomsOperator-ctr,age-ctr,' \
-         'gender-ctr,education-ctr,marriageStatus-ctr,haveBaby-ctr,hometown-ctr,residence-ctr,sitesetID-ctr,' \
-         'positionType-ctr,adID-ctr,camgaignID-ctr,advertiserID-ctr,appID-ctr,appPlatform-ctr,appCategory-ctr,' \
-         'creat_pos-ctr'
-
 
 def com_feat(row):
     com_feats = {}
